@@ -1,7 +1,7 @@
 import { GET_ACTIVITIES, DELETE_ACTIVITIES, GET_COUNTRIES, GET_COUNTRY_DETAIL, CREATE_ACTIVITY,SEARCH_COUNTRY,FILTER_COUNTRY, ORDER_BY_NAME,} from "./action-types";
 
 import axios from 'axios';
-axios.defaults.baseURL = 'http://localhost:3001';
+axios.defaults.baseURL = 'https://pi-server-production-57a7.up.railway.app/';
 
 export const getCountries = () => {
     return async (dispatch) => {
